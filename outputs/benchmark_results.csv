@@ -1,0 +1,9 @@
+Model,Positional Encoding,Heads,Layers,Val Acc,Test Acc,Train Time (sec),Parameters
+A_simple_baseline,No,-,-,0.814,0.823,8.8,385
+B_transformer_pos_heads1_layers1,Yes,1,1,0.901,0.895,50.08,33857
+C_transformer_pos_heads4_layers1,Yes,4,1,0.97,0.97,74.41,33857
+D_transformer_no_pos_heads4_layers1,No,4,1,0.814,0.823,57.11,33857
+E_transformer_pos_heads4_layers2,Yes,4,2,0.987,0.973,139.42,67329
+F_transformer_pos_heads2_layers1,Yes,2,1,0.921,0.89,61.23,33857
+G_transformer_no_pos_heads1_layers1,No,1,1,0.814,0.823,64.22,33857
+H_transformer_pos_heads4_layers3,Yes,4,3,0.995,0.96,191.64,100801
